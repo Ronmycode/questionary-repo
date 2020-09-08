@@ -4,30 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorkFlow with JS</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Syne&display=swap" rel="stylesheet">
+
     <!-- css link file -->
     <link rel="stylesheet" href="base-style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
 
-
-
-<div id="page">
-
-</div>
-
-
-
-
-
-
-
-
-
+    <div id="main" class="container">
+        <div id="disp">
+            <div id="questionTitle"></div>
+            <div id="answer">
+                <table>
+                    <tr>
+                        <th><input type="radio" name="quiz"></th>
+                        <th><div id="op1">option1</div></th>
+                    <tr>
+                        <th><input type="radio" name="quiz"></th>
+                        <th><div id="op2">option2</div></th>
+                    </tr>
+                        <th><input type="radio" name="quiz"></th>
+                        <th><div id="op3">option3</div></th>
+                    </tr>
+                </table>
+            </div>
+            <div id="next">
+                <div id="button" class="btn btn-primary" onclick="prog()">Next</div>
+            </div>
+        </div>
+        <div id="res"></div>
+    </div>
 
 
 
